@@ -15,7 +15,22 @@
 
 ## Utils
 
-- .gitkeep
-  - Enable Git to push empty folders
-- open .
-  - Open current folder on MacOS Finder
+- Enable Git to push empty folders
+  ```
+  $ .gitkeep
+  ```
+- Open current folder on MacOS Finder
+
+  ```
+  $ open .
+  ```
+
+- To enable auto-import in VsCode, create at the root "jsconfig.json"
+  ```
+  {
+    "compilerOptions": {
+      "jsx": "react",
+      "checkJs": true
+    }
+  }
+  ```
