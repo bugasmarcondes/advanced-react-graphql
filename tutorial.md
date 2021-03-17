@@ -34,3 +34,7 @@
     }
   }
   ```
+- MongoDB
+  - Start - brew services start mongodb-community@4.4
+  - Stop - brew services stop mongodb-community@4.4
+  - Verify - brew services list
