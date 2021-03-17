@@ -1,3 +1,9 @@
-export default function IndexPage() {
-  return <p>Sell page!</p>;
+import React from 'react';
+
+export default function SellPage() {
+  return (
+    <div>
+      <p>Sell page!</p>
+    </div>
+  );
 }

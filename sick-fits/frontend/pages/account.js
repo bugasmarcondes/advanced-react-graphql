@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function IndexPage() {
+export default function AccountPage() {
   return (
     <div>
-      <p>Index page!</p>
+      <p>Account page!</p>
     </div>
   );
 }
